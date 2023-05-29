@@ -1,0 +1,152 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    --padding: 0 10rem;
+}
+
+header{
+    color: #f9faf8;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    justify-content: center;
+    /* overflow: scroll; */
+}
+ul{
+    list-style: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: fit-content;
+
+    /* gap: 10rem; */
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/1;
+    padding: 1rem;
+    object-fit: contain;
+    /* display: none;    */
+}
+
+
+.items .main{
+    /* flex: 1; */
+    padding: 0 1rem;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+.items .secondary{
+    margin-top: 0;
+text-align: left;
+}
+.left{
+    margin-left: auto;
+}
+.lef{
+    margin: 0 1rem;
+}
+.secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
+.main{
+    font-size: 48px;
+    padding: var(--padding);
+}
+.squares{
+    aspect-ratio: 1/1;
+    width: 10rem;
+}
+.one>h3{
+    font-size: 36px;
+    color: #1f2937;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.squares>p{
+    text-align: center;
+}
+
+.two{
+    padding: var(--padding);
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.who{
+    float: right;
+}
+.three{
+    background-color:   #0275d8;
+    color: whitesmoke;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .5rem;
+}
+.thre{
+    padding: var(--padding);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-weight: bold;
+}
+.butn{
+    color: whitesmoke;
+    background-color: #0dcaf0;
+    border: solid white 1px;
+    padding: .25rem 2rem;
+    border-radius: .5rem;
+}
+.squares>img{
+    width:10rem;
+    height: 10rem;
+    border-radius: .5rem;
+    border: 2px #0275d8 solid;
+}
+.blue-btn{
+    color: white;
+    background-color: #0275d8;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size: 18px;
+    /* border: 1px white solid; */
+}
+.thre .blue-btn{
+    border: solid white 1px;
+}
+footer{
+    background-color: #292b2c;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 0; */
+    padding: 1rem;
+}
